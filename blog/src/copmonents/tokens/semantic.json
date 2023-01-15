@@ -11,7 +11,7 @@
       "description": "A color that is used for major actions in the service or that expresses the brand's personality"
     },
     "primary-event": {
-      "value": "$scale.purple-400",
+      "value": "$scale.blue-400",
       "type": "color",
       "description": "Tokens that represent changes in the default color state when the user presses or controls the screen with a mouse or finger. \nIt replaces hovered in a desktop environment. \nIn a mobile environment, it replaces the pressed."
     },
