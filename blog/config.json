@@ -1,0 +1,28 @@
+{
+  "source": [
+    "/Users/yunminhee/Documents/GitHub/Record/blog/src/copmonents/tokens/**/*.json"
+  ],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "/Users/yunminhee/Documents/GitHub/Record/blog/src/copmonents/tokens/css/",
+      "files": [
+        {
+          "destination": "_variables.scss",
+          "format": "scss/variables"
+        }
+      ]
+    },
+
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "/Users/yunminhee/Documents/GitHub/Record/blog/src/copmonents/tokens/css/",
+      "files": [
+        {
+          "destination": "_variables.css",
+          "format": "css/variables"
+        }
+      ]
+    }
+  }
+}
