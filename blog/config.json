@@ -1,11 +1,11 @@
 {
   "source": [
-    "/Users/yunminhee/Documents/GitHub/Record/blog/src/copmonents/tokens/**/*.json"
+    "/Users/yunminhee/Documents/GitHub/Record/blog/src/components/tokens/**/*.json"
   ],
   "platforms": {
     "scss": {
       "transformGroup": "scss",
-      "buildPath": "/Users/yunminhee/Documents/GitHub/Record/blog/src/copmonents/tokens/css/",
+      "buildPath": "/Users/yunminhee/Documents/GitHub/Record/blog/src/components/tokens/css/",
       "files": [
         {
           "destination": "_variables.scss",
@@ -16,7 +16,7 @@
 
     "css": {
       "transformGroup": "css",
-      "buildPath": "/Users/yunminhee/Documents/GitHub/Record/blog/src/copmonents/tokens/css/",
+      "buildPath": "/Users/yunminhee/Documents/GitHub/Record/blog/src/components/tokens/css/",
       "files": [
         {
           "destination": "_variables.css",
