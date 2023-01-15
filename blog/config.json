@@ -9,7 +9,10 @@
       "files": [
         {
           "destination": "_variables.scss",
-          "format": "scss/variables"
+          "format": "scss/variables",
+          "options": {
+            "outputReferences": true
+          }
         }
       ]
     },
@@ -20,7 +23,10 @@
       "files": [
         {
           "destination": "_variables.css",
-          "format": "css/variables"
+          "format": "css/variables",
+          "options": {
+            "outputReferences": true
+          }
         }
       ]
     }
