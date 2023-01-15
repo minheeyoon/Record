@@ -6,7 +6,7 @@
       "description": "Primary Color The color used for content (icon, text, etc.) located above the surface."
     },
     "primary": {
-      "value": "{scale.purple-500}",
+      "value": "{scale.blue-500}",
       "type": "color",
       "description": "A color that is used for major actions in the service or that expresses the brand's personality"
     },
