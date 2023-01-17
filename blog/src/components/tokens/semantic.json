@@ -11,43 +11,43 @@
       "description": "A color that is used for major actions in the service or that expresses the brand's personality"
     },
     "primary-event": {
-      "value": "$scale.purple-400",
+      "value": "{scale.purple-400}",
       "type": "color",
       "description": "Tokens that represent changes in the default color state when the user presses or controls the screen with a mouse or finger. \nIt replaces hovered in a desktop environment. \nIn a mobile environment, it replaces the pressed."
     },
     "primary-low": {
-      "value": "$scale.purple-alpha-100",
+      "value": "{scale.purple-alpha-100}",
       "type": "color"
     },
     "primary-low-event": {
-      "value": "$scale.purple-alpha-200",
+      "value": "{scale.purple-alpha-200}",
       "type": "color"
     },
     "negative": {
-      "value": "$scale.red-500",
+      "value": "{scale.red-500}",
       "type": "color",
       "description": "A color used for negative situations such as errors or errors. This color should not be used frequently."
     },
     "negative-event": {
-      "value": "$scale.red-400",
+      "value": "{scale.red-400}",
       "type": "color",
       "description": "Tokens that represent changes in the negative color state when the user presses or controls the screen with a mouse or finger. \nIt replaces hovered in a desktop environment. \nIn a mobile environment, it replaces the pressed."
     },
     "negative-low": {
-      "value": "$scale.red-alpha-100",
+      "value": "{scale.red-alpha-100}",
       "type": "color"
     },
     "positive": {
-      "value": "$scale.green-500",
+      "value": "{scale.green-500}",
       "type": "color",
       "description": "Color used for positive state representations such as success, completion, and so on."
     },
     "positive-low": {
-      "value": "$scale.green-alpha-100",
+      "value": "{scale.green-alpha-100}",
       "type": "color"
     },
     "disabled": {
-      "value": "$scale.gray-400",
+      "value": "{scale.gray-400}",
       "type": "color",
       "description": "This is a color that means the disabled state of the ui."
     },
@@ -61,7 +61,7 @@
       "type": "color"
     },
     "surface": {
-      "value": "$scale.gray-00",
+      "value": "{scale.gray-00}",
       "type": "color"
     },
     "surface-contents": {
@@ -69,12 +69,12 @@
       "type": "color"
     },
     "on-surface": {
-      "value": "$scale.gray-900",
+      "value": "{scale.gray-900}",
       "type": "color",
       "description": "used for content such as letters and icons that are placed above the surface color."
     },
     "border-thumbnail": {
-      "value": "$scale.gray-alpha-25",
+      "value": "{scale.gray-alpha-25}",
       "type": "color"
     },
     "border-divider": {

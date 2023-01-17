@@ -473,27 +473,27 @@
     "type": "sizing"
   },
   "scale-radius-1": {
-    "value": "$scale-dimension-size-25",
+    "value": "{scale-dimension-size-25}",
     "type": "borderRadius"
   },
   "scale-radius-2": {
-    "value": "$scale-dimension-size-50",
+    "value": "{scale-dimension-size-50}",
     "type": "borderRadius"
   },
   "scale-radius-3": {
-    "value": "$scale-dimension-size-75",
+    "value": "{scale-dimension-size-75}",
     "type": "borderRadius"
   },
   "scale-radius-4": {
-    "value": "$scale-dimension-size-150",
+    "value": "{scale-dimension-size-150}",
     "type": "borderRadius"
   },
   "scale-radius-5": {
-    "value": "$scale-dimension-size-200",
+    "value": "{scale-dimension-size-200}",
     "type": "borderRadius"
   },
   "scale-radius-6": {
-    "value": "$scale-dimension-size-300",
+    "value": "{scale-dimension-size-300}",
     "type": "borderRadius"
   },
   "scale-radius-full": {
