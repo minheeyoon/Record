@@ -3,20 +3,6 @@
     "/Users/yunminhee/Documents/GitHub/Record/blog/src/components/tokens/**/*.json"
   ],
   "platforms": {
-    "scss": {
-      "transformGroup": "scss",
-      "buildPath": "/Users/yunminhee/Documents/GitHub/Record/blog/src/components/tokens/css/",
-      "files": [
-        {
-          "destination": "_variables.scss",
-          "format": "scss/variables",
-          "options": {
-            "outputReferences": true
-          }
-        }
-      ]
-    },
-
     "css": {
       "transformGroup": "css",
       "buildPath": "/Users/yunminhee/Documents/GitHub/Record/blog/src/components/tokens/css/",

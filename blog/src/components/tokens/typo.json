@@ -1,0 +1,225 @@
+{
+  "line-height-md": {
+    "fontFamily": {
+      "value": "{aha-prodcut}",
+      "type": "fontFamilies"
+    },
+    "fontWeight": {
+      "value": "{Regular}",
+      "type": "fontWeights"
+    },
+    "lineHeight": {
+      "value": "{static-medium}",
+      "type": "lineHeight"
+    },
+    "fontSize": {
+      "value": "{scale-dimension-font-size-25}",
+      "type": "fontSizes"
+    }
+  },
+  "line-height-md-bold": {
+    "fontFamily": {
+      "value": "{aha-prodcut}",
+      "type": "fontFamilies"
+    },
+    "fontWeight": {
+      "value": "{Bold}",
+      "type": "fontWeights"
+    },
+    "lineHeight": {
+      "value": "{static-medium}",
+      "type": "lineHeight"
+    },
+    "fontSize": {
+      "value": "{scale-dimension-font-size-25}",
+      "type": "fontSizes"
+    }
+  },
+  "line-height-sm": {
+    "fontFamily": {
+      "value": "{aha-prodcut}",
+      "type": "fontFamilies"
+    },
+    "fontWeight": {
+      "value": "{Regular}",
+      "type": "fontWeights"
+    },
+    "lineHeight": {
+      "value": "{static-small}",
+      "type": "lineHeight"
+    },
+    "fontSize": {
+      "value": "{scale-dimension-font-size-25}",
+      "type": "fontSizes"
+    }
+  },
+  "line-height-sm-bold": {
+    "fontFamily": {
+      "value": "{aha-prodcut}",
+      "type": "fontFamilies"
+    },
+    "fontWeight": {
+      "value": "{Bold}",
+      "type": "fontWeights"
+    },
+    "lineHeight": {
+      "value": "{static-small}",
+      "type": "lineHeight"
+    },
+    "fontSize": {
+      "value": "{scale-dimension-font-size-25}",
+      "type": "fontSizes"
+    }
+  },
+  "ui-small": {
+    "value": "{scale-radius-2}",
+    "type": "borderRadius",
+    "failedToResolve": true
+  },
+  "media-base": {
+    "value": "{scale-radius-3}",
+    "type": "borderRadius",
+    "description": "Default border round value applied to media areas such as thumbnails, pictures, and videos.",
+    "failedToResolve": true
+  },
+  "ui-full": {
+    "value": "{scale-radius-full}",
+    "type": "borderRadius",
+    "failedToResolve": true
+  },
+  "line-height-lg": {
+    "fontFamily": {
+      "value": "{aha-prodcut}",
+      "type": "fontFamilies"
+    },
+    "fontWeight": {
+      "value": "{Regular}",
+      "type": "fontWeights"
+    },
+    "lineHeight": {
+      "value": "{static-large}",
+      "type": "lineHeight"
+    },
+    "fontSize": {
+      "value": "{scale-dimension-font-size-200}",
+      "type": "fontSizes"
+    }
+  },
+  "line-height-lg-bold": {
+    "fontFamily": {
+      "value": "{aha-prodcut}",
+      "type": "fontFamilies"
+    },
+    "fontWeight": {
+      "value": "{Bold}",
+      "type": "fontWeights"
+    },
+    "lineHeight": {
+      "value": "{static-large}",
+      "type": "lineHeight"
+    },
+    "fontSize": {
+      "value": "{scale-dimension-font-size-200}",
+      "type": "fontSizes"
+    }
+  },
+  "on-primary": {
+    "value": "{static.white}",
+    "type": "color",
+    "description": "Primary Color The color used for content (icon, text, etc.) located above the surface.",
+    "failedToResolve": true
+  },
+  "primary": {
+    "value": "{scale.purple-500}",
+    "type": "color",
+    "description": "A color that is used for major actions in the service or that expresses the brand's personality",
+    "failedToResolve": true
+  },
+  "primary-event": {
+    "value": "{scale.purple-400}",
+    "type": "color",
+    "description": "Tokens that represent changes in the default color state when the user presses or controls the screen with a mouse or finger. \nIt replaces hovered in a desktop environment. \nIn a mobile environment, it replaces the pressed.",
+    "failedToResolve": true
+  },
+  "primary-low": {
+    "value": "{scale.purple-alpha-100}",
+    "type": "color",
+    "failedToResolve": true
+  },
+  "primary-low-event": {
+    "value": "{scale.purple-alpha-200}",
+    "type": "color",
+    "failedToResolve": true
+  },
+  "negative": {
+    "value": "{scale.red-500}",
+    "type": "color",
+    "description": "A color used for negative situations such as errors or errors. This color should not be used frequently.",
+    "failedToResolve": true
+  },
+  "negative-event": {
+    "value": "{scale.red-400}",
+    "type": "color",
+    "description": "Tokens that represent changes in the negative color state when the user presses or controls the screen with a mouse or finger. \nIt replaces hovered in a desktop environment. \nIn a mobile environment, it replaces the pressed.",
+    "failedToResolve": true
+  },
+  "negative-low": {
+    "value": "{scale.red-alpha-100}",
+    "type": "color",
+    "failedToResolve": true
+  },
+  "positive": {
+    "value": "{scale.green-500}",
+    "type": "color",
+    "description": "Color used for positive state representations such as success, completion, and so on.",
+    "failedToResolve": true
+  },
+  "positive-low": {
+    "value": "{scale.green-alpha-100}",
+    "type": "color",
+    "failedToResolve": true
+  },
+  "disabled": {
+    "value": "{scale.gray-400}",
+    "type": "color",
+    "description": "This is a color that means the disabled state of the ui.",
+    "failedToResolve": true
+  },
+  "disabled-low": {
+    "value": "{scale.gray-200}",
+    "type": "color",
+    "description": "Represents a step in a hierarchy below the default deactivation status color.",
+    "failedToResolve": true
+  },
+  "surface-low": {
+    "value": "{scale.gray-100}",
+    "type": "color",
+    "failedToResolve": true
+  },
+  "surface": {
+    "value": "{scale.gray-00}",
+    "type": "color",
+    "failedToResolve": true
+  },
+  "surface-contents": {
+    "value": "{scale.gray-100}",
+    "type": "color",
+    "failedToResolve": true
+  },
+  "on-surface": {
+    "value": "{scale.gray-900}",
+    "type": "color",
+    "description": "used for content such as letters and icons that are placed above the surface color.",
+    "failedToResolve": true
+  },
+  "border-thumbnail": {
+    "value": "{scale.gray-alpha-25}",
+    "type": "color",
+    "failedToResolve": true
+  },
+  "border-divider": {
+    "value": "{scale.gray-200}",
+    "type": "color",
+    "failedToResolve": true
+  }
+}

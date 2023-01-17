@@ -41,16 +41,22 @@ const getPosts = () => {
         const metadataIndices = lines.reduce(getMetadataIndices, []);
         const metadata = parseMetadata({ lines, metadataIndices });
         const content = parseContent({ lines, metadataIndices });
+        const date = new Date(metadata.date);
+        const timestamp = date.getTime() / 1000;
         post = {
-          id: i + 1,
+          id: timestamp,
           title: metadata.title ? metadata.title : "Have No Title",
           ahthor: metadata.ahthor ? metadata.ahthor : "Have No Author",
           date: metadata.date ? metadata.date : "Have No Date",
+          category: metadata.category ? metadata.category : "Have No Category",
           content: content ? content : "Have No Content",
         };
         postlist.push(post);
         if (i === files.length - 1) {
-          let data = JSON.stringify(postlist);
+          const sortedList = postlist.sort((a, b) => {
+            return a.id < b.id ? 1 : -1;
+          });
+          let data = JSON.stringify(sortedList);
           fs.writeFileSync("src/posts.json", data);
         }
       });
