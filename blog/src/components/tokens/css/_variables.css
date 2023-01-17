@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 17 Jan 2023 15:32:25 GMT
+ * Generated on Tue, 17 Jan 2023 17:43:16 GMT
  */
 
 :root {
@@ -50,8 +50,8 @@
   --scale-dimension-font-size-50: 12px;
   --scale-dimension-font-size-25: 11px;
   --scale-dimension-font-size-10: 10px;
-  --static-alpha-white-500: rgba(255,255,255,0.5);
-  --static-alpha-white-200: rgba(255,255,255,0.2);
+  --static-alpha-white-500: rgba(255, 255, 255, 0.5);
+  --static-alpha-white-200: rgba(255, 255, 255, 0.2);
   --static-alpha-balck-200: rgba(0, 0, 0, 0.2);
   --static-alpha-balck-500: rgba(0, 0, 0, 0.5);
   --static-blue: #3d73ff;
@@ -119,19 +119,66 @@
   --scale-purple-100: #f3f0ff;
   --scale-gray-00: #ffffff;
   --scale-gray-1000: #000000;
-  --scale-gray-900: #15171A;
+  --scale-gray-900: #15171a;
   --scale-gray-800: #212529;
-  --scale-gray-700: #343A40;
+  --scale-gray-700: #343a40;
   --scale-gray-600: #495057;
-  --scale-gray-500: #868E96;
-  --scale-gray-400: #ADB5BD;
-  --scale-gray-300: #DEE2E6;
-  --scale-gray-200: #F1F3F5;
-  --scale-gray-100: #F8F9FA;
+  --scale-gray-500: #868e96;
+  --scale-gray-400: #adb5bd;
+  --scale-gray-300: #dee2e6;
+  --scale-gray-200: #f1f3f5;
+  --scale-gray-100: #f8f9fa;
+  --border-divider: var(--scale-gray-200);
+  --border-thumbnail: var(--scale-gray-alpha-25);
+  --on-surface: var(--scale-gray-900);
+  --surface-contents: var(--scale-gray-100);
+  --surface: var(--scale-gray-00);
+  --surface-low: var(--scale-gray-100);
+  --disabled-low: var(--scale-gray-200);
+  --disabled: var(--scale-gray-400);
+  --positive-low: var(--scale-green-alpha-100);
+  --positive: var(--scale-green-500);
+  --negative-low: var(--scale-red-alpha-100);
+  --negative-event: var(--scale-red-400);
+  --negative: var(--scale-red-500);
+  --primary-low-event: var(--scale-purple-alpha-200);
+  --primary-low: var(--scale-purple-alpha-100);
+  --primary-event: var(--scale-purple-400);
+  --primary: var(--scale-purple-500);
+  --on-primary: var(--static-white);
+
+  --line-height-lg-bold-font-size: var(--scale-dimension-font-size-200);
+  --line-height-lg-bold-line-height: var(--static-large);
+  --line-height-lg-bold-font-weight: var(--bold);
+
+  --line-height-lg-font-size: var(--scale-dimension-font-size-200);
+  --line-height-lg-line-height: var(--static-large);
+  --line-height-lg-font-weight: var(--regular);
+
+  --ui-full: var(--scale-radius-full);
+
+  --line-height-sm-bold-font-size: var(--scale-dimension-font-size-25);
+  --line-height-sm-bold-line-height: var(--static-small);
+  --line-height-sm-bold-font-weight: var(--bold);
+
+  --line-height-sm-font-size: var(--scale-dimension-font-size-25);
+  --line-height-sm-line-height: var(--static-small);
+  --line-height-sm-font-weight: var(--regular);
+
+  --line-height-md-bold-font-size: var(--scale-dimension-font-size-25);
+  --line-height-md-bold-line-height: var(--static-medium);
+  --line-height-md-bold-font-weight: var(--bold);
+
+  --line-height-md-font-size: var(--scale-dimension-font-size-25);
+  --line-height-md-line-height: var(--static-medium);
+  --line-height-md-font-weight: var(--regular);
+
   --paragraph-md: var(--static-medium);
   --paragraph-lg: var(--static-large);
+
   --radius-ui-full: var(--scale-radius-full);
   --aha-prodcut: var(--pretendard);
+
   --semantic-border-divider: var(--scale-gray-200);
   --semantic-border-thumbnail: var(--scale-gray-alpha-25);
   --semantic-on-surface: var(--scale-gray-900);
@@ -150,12 +197,23 @@
   --semantic-primary-event: var(--scale-purple-400);
   --semantic-primary: var(--scale-purple-500);
   --semantic-on-primary: var(--static-white);
+
   --scale-radius-6: var(--scale-dimension-size-300);
   --scale-radius-5: var(--scale-dimension-size-200);
   --scale-radius-4: var(--scale-dimension-size-150);
   --scale-radius-3: var(--scale-dimension-size-75);
   --scale-radius-2: var(--scale-dimension-size-50);
   --scale-radius-1: var(--scale-dimension-size-25);
+
+  --line-height-lg-bold-font-family: var(--aha-prodcut);
+  --line-height-lg-font-family: var(--aha-prodcut);
+  --media-base: var(--scale-radius-3);
+  --ui-small: var(--scale-radius-2);
+  --line-height-sm-bold-font-family: var(--aha-prodcut);
+  --line-height-sm-font-family: var(--aha-prodcut);
+  --line-height-md-bold-font-family: var(--aha-prodcut);
+  --line-height-md-font-family: var(--aha-prodcut);
+
   --body-xsm-line-height-sm-bold: [object Object];
   --body-xsm-line-height-sm: [object Object];
   --body-xsm-line-height-md-bold: [object Object];
