@@ -18,4 +18,5 @@ code {
 .header {
   background-color: var(--semantic-primary);
   color: var(--theme-light-scale-scale-gray-00);
+  font-size: var(--scale-dimension-font-size-100);
 }
