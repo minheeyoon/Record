@@ -1,3 +1,15 @@
-.postlist {
-  background-color: var(--scale-gray-200);
+@import url(../components/tokens/css/_basics.css);
+@import url(../components/tokens/css/_variables.css);
+
+.post-list {
+  background-color: var(--scale-gray-00);
+  border-top: 1px solid var(--border-divider);
+}
+
+.post-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--scale-dimension-size-1000);
+  border-bottom: 1px solid var(--border-divider);
 }

@@ -6,6 +6,11 @@ body {
   color: var(--scale-gray-800);
 }
 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
 h1,
 h2,
 h3,
@@ -43,4 +48,59 @@ h6 {
 
 p {
   line-height: var(--static-medium);
+  margin: var(--scale-dimension-size-0);
+}
+
+.links {
+  text-decoration: none;
+  color: var(--scale-gray-900);
+}
+
+.links:hover {
+  color: var(--scale-gray-600);
+}
+
+.body-lg {
+  font-size: var(--scale-dimension-font-size-200);
+  line-height: var(--static-large);
+}
+
+.body-lg-bold {
+  font-size: var(--scale-dimension-font-size-200);
+  line-height: var(--static-large);
+  font-weight: var(--bold);
+}
+
+.body-md {
+  font-size: var(--scale-dimension-font-size-100);
+  line-height: var(--static-medium);
+  word-break: keep-all;
+}
+
+.body-md-bold {
+  font-size: var(--scale-dimension-font-size-100);
+  line-height: var(--static-medium);
+  font-weight: var(--bold);
+}
+
+.body-sm {
+  font-size: var(--scale-dimension-font-size-50);
+  line-height: var(--static-medium);
+}
+
+.body-sm-bold {
+  font-size: var(--scale-dimension-font-size-50);
+  line-height: var(--static-medium);
+  font-weight: var(--bold);
+}
+
+.body-xsm {
+  font-size: var(--scale-dimension-font-size-25);
+  line-height: var(--static-medium);
+}
+
+.body-xsm-bold {
+  font-size: var(--scale-dimension-font-size-20);
+  line-height: var(--static-medium);
+  font-weight: var(--bold);
 }

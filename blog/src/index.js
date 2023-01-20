@@ -1,11 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
+import Project from "./pages/project";
+import Post from "./pages/post";
+import PageNotFound from "./pages/notfound";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
-    <Home />
+    <Routes>
+      <Route path="/" exact={true} element={<Home />} />
+      <Route path="/project" element={<Project />} />
+      <Route path="/post/:id" element={<Post />} />
+      <Route path="/404" element={<PageNotFound />} />
+    </Routes>
   </BrowserRouter>
 );

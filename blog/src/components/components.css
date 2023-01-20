@@ -1,22 +1,23 @@
 @import url(./tokens/css/_variables.css);
 @import url(./tokens/css/_basics.css);
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
 .layout {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
+  width: 53.75rem;
   margin: 0 auto;
-  width: 53.75em;
+}
+
+.navbar,
+.footer {
+  margin-top: var(--scale-dimension-size-400);
+  margin-bottom: var(--scale-dimension-size-200);
 }
 
 @media (max-width: 520px) {
   .layout {
-    width: 100vw;
+    width: 80%;
   }
 }

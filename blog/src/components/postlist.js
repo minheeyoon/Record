@@ -1,6 +1,6 @@
 import React from "react";
-import ReactMarkdown from "react-markdown";
-import rehypeRaw from "rehype-raw";
+import { Link } from "react-router-dom";
+import { CaretRight } from "phosphor-react";
 
 import postlist from "../posts.json";
 import "../pages/pages.css";
@@ -12,22 +12,16 @@ const PostList = () => {
   console.log(excerptList);
 
   return (
-    <div className="postlist">
-      <h3>최신</h3>
+    <div className="post-list">
       {postlist.length &&
         postlist.map((post, i) => {
           return (
-            <div key={i} className="post-card">
+            <Link to={`/post/${post.id}`} key={i} className="post-card links">
+              <small>{post.date}</small>
+              <small>{post.category}</small>
               <h6>{post.title}</h6>
-              <small>
-                {post.date} · {post.category}
-              </small>
-              <ReactMarkdown
-                children={excerptList[i]}
-                rehypePlugins={[rehypeRaw]}
-              />
-              <small>more</small>
-            </div>
+              <CaretRight size={24} weight="bold" />
+            </Link>
           );
         })}
     </div>

@@ -1,8 +1,8 @@
 ---
-title: My Test Post
+title: 디자인은 참 어렵고 힘들어
 author: minhee
-date: January 9, 2023
-category: design
+date: 2023.01.20
+category: DESIGN
 ---
 
 _Italic_
@@ -13,14 +13,4 @@ _Italic_
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wDBEc3dJJV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-# H1 Title
-
-## h2 Title
-
-### h3 Title
-
-#### h4 Title
-
-##### h5 Title
-
-###### h6 Title
+# 오늘은 그렇게나 지치고 힘들었다

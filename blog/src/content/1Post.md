@@ -1,15 +1,15 @@
 ---
-title: MoreTestTEST
+title: 모든게 쉬우면 얼마나 좋을까!
 author: minhee
-date: January 18, 2023
-category: record
+date: 2023.01.19
+category: DESIGN
 ---
 
 _룰루랄라_
 
 **결국은 이렇게됐다네**
 
-# 가나다라마바사아자아자
+# TEST
 
 ```
 code
