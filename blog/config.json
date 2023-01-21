@@ -1,7 +1,7 @@
 {
   "source": [
-    "/Users/yunminhee/Documents/GitHub/Record/blog/src/components/tokens/scale/*.json",
-    "/Users/yunminhee/Documents/GitHub/Record/blog/src/components/tokens/semantic/*.json"
+    "/Users/yunminhee/Documents/GitHub/Record/blog/src/components/tokens/scale/**/*.json",
+    "/Users/yunminhee/Documents/GitHub/Record/blog/src/components/tokens/semantic/**/*.json"
   ],
   "platforms": {
     "css": {
