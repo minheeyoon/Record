@@ -1,5 +1,9 @@
 {
   "scale": {
+    "gray-00": {
+      "value": "#ffffff",
+      "type": "color"
+    },
     "gray-100": {
       "value": "#F8F9FA",
       "type": "color"
@@ -38,10 +42,6 @@
     },
     "gray-1000": {
       "value": "#000000",
-      "type": "color"
-    },
-    "gray-00": {
-      "value": "#ffffff",
       "type": "color"
     },
     "purple-100": {
@@ -286,36 +286,6 @@
     "type": "fontFamilies",
     "description": "Pretendard Font"
   },
-  "static": {
-    "black": {
-      "value": "#000000",
-      "type": "color"
-    },
-    "white": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "blue": {
-      "value": "#3d73ff",
-      "type": "color"
-    },
-    "alpha-balck-500": {
-      "value": "rgba(0, 0, 0, 0.5)",
-      "type": "color"
-    },
-    "alpha-balck-200": {
-      "value": "rgba(0, 0, 0, 0.2)",
-      "type": "color"
-    },
-    "alpha-white-200": {
-      "value": "rgba(255,255,255,0.2)",
-      "type": "color"
-    },
-    "alpha-white-500": {
-      "value": "rgba(255,255,255,0.5)",
-      "type": "color"
-    }
-  },
   "scale-dimension-font-size-10": {
     "value": "10px",
     "type": "fontSizes"
@@ -500,12 +470,12 @@
     "value": "99999px",
     "type": "borderRadius"
   },
-  "roboto": {
-    "value": "Roboto",
-    "type": "fontFamilies"
-  },
   "sf-pro-display": {
     "value": "SF Pro Display",
+    "type": "fontFamilies"
+  },
+  "roboto": {
+    "value": "Roboto",
     "type": "fontFamilies"
   },
   "sf-pro-text": {
@@ -523,5 +493,39 @@
   "alpha-500": {
     "value": "0.5",
     "type": "opacity"
+  },
+  "static": {
+    "black": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "white": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "blue": {
+      "value": "#3d73ff",
+      "type": "color"
+    },
+    "alpha-balck-500": {
+      "value": "rgba(0, 0, 0, 0.5)",
+      "type": "color"
+    },
+    "alpha-balck-200": {
+      "value": "rgba(0, 0, 0, 0.2)",
+      "type": "color"
+    },
+    "alpha-white-200": {
+      "value": "rgba(255,255,255,0.2)",
+      "type": "color"
+    },
+    "alpha-white-500": {
+      "value": "rgba(255,255,255,0.5)",
+      "type": "color"
+    }
+  },
+  "sf-mono": {
+    "value": "SF Mono",
+    "type": "fontFamilies"
   }
 }
