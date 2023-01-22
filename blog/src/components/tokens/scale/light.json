@@ -1,5 +1,5 @@
 {
-  "scale-light": {
+  "theme": {
     "gray-00": {
       "value": "#ffffff",
       "type": "color"

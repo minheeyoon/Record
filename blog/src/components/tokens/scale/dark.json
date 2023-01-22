@@ -1,5 +1,5 @@
 {
-  "scale-dark": {
+  "theme": {
     "gray-00": {
       "value": "#000000",
       "type": "color"
