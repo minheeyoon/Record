@@ -220,18 +220,6 @@
     "value": "SF Pro Text",
     "type": "fontFamilies"
   },
-  "alpha-100": {
-    "value": "0.1",
-    "type": "opacity"
-  },
-  "alpha-200": {
-    "value": "0.2",
-    "type": "opacity"
-  },
-  "alpha-500": {
-    "value": "0.5",
-    "type": "opacity"
-  },
   "sf-mono": {
     "value": "SF Mono",
     "type": "fontFamilies"

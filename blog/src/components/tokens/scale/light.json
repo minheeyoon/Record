@@ -252,6 +252,14 @@
       "value": "rgba(64, 192, 87, 0.2)",
       "type": "color"
     },
+    "blue-alpha-100": {
+      "value": "rgba(61, 174, 255, 0.1)",
+      "type": "color"
+    },
+    "blue-alpha-200": {
+      "value": "rgba(61, 174, 255, 0.2)",
+      "type": "color"
+    },
     "red-alpha-100": {
       "value": "rgba(250, 82, 82, 0.1)",
       "type": "color"
