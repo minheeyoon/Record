@@ -6,79 +6,79 @@
       "description": "Primary Color The color used for content (icon, text, etc.) located above the surface."
     },
     "primary": {
-      "value": "{theme.purple-500}",
+      "value": "{color.purple-500}",
       "type": "color",
       "description": "A color that is used for major actions in the service or that expresses the brand's personality"
     },
     "primary-event": {
-      "value": "{theme.purple-400}",
+      "value": "{color.purple-400}",
       "type": "color",
       "description": "Tokens that represent changes in the default color state when the user presses or controls the screen with a mouse or finger. \nIt replaces hovered in a desktop environment. \nIn a mobile environment, it replaces the pressed."
     },
     "primary-low": {
-      "value": "{theme.purple-alpha-100}",
+      "value": "{color.purple-alpha-100}",
       "type": "color"
     },
     "primary-low-event": {
-      "value": "{theme.purple-alpha-200}",
+      "value": "{color.purple-alpha-200}",
       "type": "color"
     },
     "negative": {
-      "value": "{theme.red-500}",
+      "value": "{color.red-500}",
       "type": "color",
       "description": "A color used for negative situations such as errors or errors. This color should not be used frequently."
     },
     "negative-event": {
-      "value": "{theme.red-400}",
+      "value": "{color.red-400}",
       "type": "color",
       "description": "Tokens that represent changes in the negative color state when the user presses or controls the screen with a mouse or finger. \nIt replaces hovered in a desktop environment. \nIn a mobile environment, it replaces the pressed."
     },
     "negative-low": {
-      "value": "{theme.red-alpha-100}",
+      "value": "{color.red-alpha-100}",
       "type": "color"
     },
     "positive": {
-      "value": "{theme.green-500}",
+      "value": "{color.green-500}",
       "type": "color",
       "description": "Color used for positive state representations such as success, completion, and so on."
     },
     "positive-low": {
-      "value": "{theme.green-alpha-100}",
+      "value": "{color.green-alpha-100}",
       "type": "color"
     },
     "disabled": {
-      "value": "{theme.gray-400}",
+      "value": "{color.gray-400}",
       "type": "color",
       "description": "This is a color that means the disabled state of the ui."
     },
     "disabled-low": {
-      "value": "{theme.gray-200}",
+      "value": "{color.gray-200}",
       "type": "color",
       "description": "Represents a step in a hierarchy below the default deactivation status color."
     },
     "surface-low": {
-      "value": "{theme.gray-100}",
+      "value": "{color.gray-100}",
       "type": "color"
     },
     "surface": {
-      "value": "{theme.gray-00}",
+      "value": "{color.gray-00}",
       "type": "color"
     },
     "surface-contents": {
-      "value": "{theme.gray-100}",
+      "value": "{color.gray-100}",
       "type": "color"
     },
     "on-surface": {
-      "value": "{theme.gray-900}",
+      "value": "{color.gray-900}",
       "type": "color",
       "description": "used for content such as letters and icons that are placed above the surface color."
     },
     "border-thumbnail": {
-      "value": "{theme.gray-alpha-25}",
+      "value": "{color.gray-alpha-25}",
       "type": "color"
     },
     "border-divider": {
-      "value": "{theme.gray-200}",
+      "value": "{color.gray-200}",
       "type": "color"
     }
   },
