@@ -2,7 +2,6 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import projectlist from "../projects.json";
-
 import "../pages/pages.css";
 
 const ProjectList = () => {

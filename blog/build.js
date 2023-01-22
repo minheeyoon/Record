@@ -44,9 +44,9 @@ function getStyleDictionaryConfig(theme) {
         buildPath: `/Users/yunminhee/Documents/GitHub/Record/blog/src/components/css/`,
         files: [
           {
-            destination: `${theme}.css`,
+            destination: `_${theme}.css`,
             format: "css/variables",
-            selector: `:root[color-theme='${theme}']`,
+            selector: `:root[data-theme='${theme}']`,
           },
         ],
       },

@@ -1,8 +1,9 @@
-@import url(../components/tokens/css/_basics.css);
-@import url(../components/tokens/css/_variables.css);
+@import url(../components/css/_basics.css);
+@import url(../components/css/_variables.css);
+@import url(../components/css/_light.css);
 
 .post-list {
-  background-color: var(--scale-gray-00);
+  background-color: var(--color-gray-800);
   border-top: 1px solid var(--border-divider);
 }
 

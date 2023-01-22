@@ -16,6 +16,7 @@
     "rehype-raw": "^6.1.1",
     "style-dictionary": "^3.7.2",
     "token-transformer": "^0.0.29",
+    "use-local-storage": "^2.3.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -24,7 +25,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "node public/main.js",
-    "styleBuild": "style-dictionary build --config build.js"
+    "styleBuild": "style-dictionary build --config build.js",
+    "styleFigureBuild": "style-dictionary build"
   },
   "eslintConfig": {
     "extends": [

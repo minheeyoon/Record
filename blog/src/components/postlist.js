@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { CaretRight } from "phosphor-react";
-
 import postlist from "../posts.json";
 import "../pages/pages.css";
 
