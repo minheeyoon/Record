@@ -6,7 +6,7 @@
   "platforms": {
     "css": {
       "transformGroup": "css",
-      "buildPath": "/Users/yunminhee/Documents/GitHub/Record/blog/src/components/tokens/css/",
+      "buildPath": "/Users/yunminhee/Documents/GitHub/Record/blog/src/components/css/",
       "files": [
         {
           "destination": "_variables.css",
