@@ -1,3 +1,5 @@
+@import url(./_dark.css);
+
 body {
   margin: 0;
   font-family: var(--pretendard);
@@ -7,8 +9,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: var(--sf-mono);
 }
 
 h1,

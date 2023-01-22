@@ -37,6 +37,7 @@ function getStyleDictionaryConfig(theme) {
   return {
     source: [
       `/Users/yunminhee/Documents/GitHub/Record/blog/src/components/tokens/scale/${theme}.json`,
+      `/Users/yunminhee/Documents/GitHub/Record/blog/src/components/tokens/semantic/${theme}.json`,
     ],
     platforms: {
       web: {
@@ -46,7 +47,7 @@ function getStyleDictionaryConfig(theme) {
           {
             destination: `_${theme}.css`,
             format: "css/variables",
-            selector: `:root[data-theme='${theme}']`,
+            selector: `.theme-${theme}`,
           },
         ],
       },

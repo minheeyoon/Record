@@ -1,4 +1,4 @@
-:root[data-theme="light"] {
+.theme-light {
   --color-gray-00: #ffffff;
   --color-gray-100: #f8f9fa;
   --color-gray-200: #f1f3f5;

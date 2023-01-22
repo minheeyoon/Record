@@ -1,4 +1,4 @@
-:root[data-theme="dark"] {
+.theme-dark {
   --color-gray-00: #000000;
   --color-gray-100: #15171a;
   --color-gray-200: #212529;
@@ -74,4 +74,22 @@
   --alpha-100: 0.1;
   --alpha-200: 0.2;
   --alpha-500: 0.5;
+  --semantic-on-primary: #ffffff;
+  --semantic-primary: #7950f2;
+  --semantic-primary-event: #6741d9;
+  --semantic-primary-low: rgba(121, 80, 242, 0.1);
+  --semantic-primary-low-event: rgba(121, 80, 242, 0.2);
+  --semantic-negative: #fa5252;
+  --semantic-negative-event: #e03131;
+  --semantic-negative-low: rgba(250, 82, 82, 0.1);
+  --semantic-positive: #40c057;
+  --semantic-positive-low: rgba(64, 192, 87, 0.1);
+  --semantic-disabled: #495057;
+  --semantic-disabled-low: #212529;
+  --semantic-surface-low: #15171a;
+  --semantic-surface: #000000;
+  --semantic-surface-contents: #15171a;
+  --semantic-on-surface: #f8f9fa;
+  --semantic-border-thumbnail: rgba(255, 255, 255, 0.03);
+  --semantic-border-divider: #212529;
 }
