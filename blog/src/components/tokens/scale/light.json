@@ -1,5 +1,5 @@
 {
-  "theme": {
+  "color": {
     "gray-00": {
       "value": "#ffffff",
       "type": "color"
@@ -261,10 +261,6 @@
       "type": "color"
     }
   },
-<<<<<<< HEAD
-
-=======
->>>>>>> 39669a47cf54fa25617507c857a36f341b24cfc1
   "alpha-100": {
     "value": "0.1",
     "type": "opacity"
