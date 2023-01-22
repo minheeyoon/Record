@@ -4,6 +4,7 @@
     "scale/figure",
     "scale/dark",
     "semantic/light",
+    "semantic/figure",
     "semantic/dark"
   ]
 }

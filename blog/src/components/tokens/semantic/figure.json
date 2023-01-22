@@ -1,0 +1,287 @@
+{
+  "heading-2xlarge": {
+    "value": {
+      "fontFamily": "{aha-prodcut}",
+      "fontWeight": "{Bold}",
+      "lineHeight": "{static-small}",
+      "fontSize": "{scale-dimension-font-size-900}",
+      "letterSpacing": "",
+      "paragraphSpacing": "",
+      "paragraphIndent": "",
+      "textCase": "",
+      "textDecoration": ""
+    },
+    "type": "typography",
+    "description": "Corresponds to the largest title role in the service."
+  },
+  "heading-xlarge": {
+    "value": {
+      "fontFamily": "{aha-prodcut}",
+      "fontWeight": "{Bold}",
+      "lineHeight": "{static-small}",
+      "fontSize": "{scale-dimension-font-size-800}",
+      "letterSpacing": "",
+      "paragraphSpacing": "",
+      "paragraphIndent": "",
+      "textCase": "",
+      "textDecoration": ""
+    },
+    "type": "typography",
+    "description": "Corresponds to the largest title role in the service."
+  },
+  "heading-large": {
+    "value": {
+      "fontFamily": "{aha-prodcut}",
+      "fontWeight": "{Bold}",
+      "lineHeight": "{static-small}",
+      "fontSize": "{scale-dimension-font-size-600}",
+      "letterSpacing": "",
+      "paragraphSpacing": "",
+      "paragraphIndent": "",
+      "textCase": "",
+      "textDecoration": ""
+    },
+    "type": "typography",
+    "description": "Corresponds to the largest title role in the service."
+  },
+  "heading-medium": {
+    "value": {
+      "fontFamily": "{aha-prodcut}",
+      "fontWeight": "{Bold}",
+      "lineHeight": "{static-small}",
+      "fontSize": "{scale-dimension-font-size-500}",
+      "letterSpacing": "",
+      "paragraphSpacing": "",
+      "paragraphIndent": "",
+      "textCase": "",
+      "textDecoration": ""
+    },
+    "type": "typography",
+    "description": "Corresponds to the largest title role in the service."
+  },
+  "heading-small": {
+    "value": {
+      "fontFamily": "{aha-prodcut}",
+      "fontWeight": "{Bold}",
+      "lineHeight": "{static-small}",
+      "fontSize": "{scale-dimension-font-size-400}",
+      "letterSpacing": "",
+      "paragraphSpacing": "",
+      "paragraphIndent": "",
+      "textCase": "",
+      "textDecoration": ""
+    },
+    "type": "typography",
+    "description": "Corresponds to the largest title role in the service."
+  },
+  "heading-xsmall": {
+    "value": {
+      "fontFamily": "{aha-prodcut}",
+      "fontWeight": "{Bold}",
+      "lineHeight": "{static-small}",
+      "fontSize": "{scale-dimension-font-size-300}",
+      "letterSpacing": "",
+      "paragraphSpacing": "",
+      "paragraphIndent": "",
+      "textCase": "",
+      "textDecoration": ""
+    },
+    "type": "typography",
+    "description": "Corresponds to the largest title role in the service."
+  },
+  "body-lg": {
+    "line-height-lg": {
+      "value": {
+        "fontFamily": "{aha-prodcut}",
+        "fontWeight": "{Regular}",
+        "lineHeight": "{static-large}",
+        "fontSize": "{scale-dimension-font-size-200}"
+      },
+      "type": "typography",
+      "description": "It's a token used for long content information. \nIt refers to the largest text size available in the body"
+    },
+    "line-height-lg-bold": {
+      "value": {
+        "fontFamily": "{aha-prodcut}",
+        "fontWeight": "{Bold}",
+        "lineHeight": "{static-large}",
+        "fontSize": "{scale-dimension-font-size-200}"
+      },
+      "type": "typography",
+      "description": "It's a token used for long content information. \nIt refers to the largest text size available in the body"
+    },
+    "line-height-sm": {
+      "value": {
+        "fontFamily": "{aha-prodcut}",
+        "fontWeight": "{Regular}",
+        "lineHeight": "{static-small}",
+        "fontSize": "{scale-dimension-font-size-200}"
+      },
+      "type": "typography",
+      "description": "It's a token used for long content information. \nIt refers to the largest text size available in the body"
+    },
+    "line-height-sm-bold": {
+      "value": {
+        "fontFamily": "{aha-prodcut}",
+        "fontWeight": "{Bold}",
+        "lineHeight": "{static-small}",
+        "fontSize": "{scale-dimension-font-size-200}"
+      },
+      "type": "typography",
+      "description": "It's a token used for long content information. \nIt refers to the largest text size available in the body"
+    }
+  },
+  "body-md": {
+    "line-height-md": {
+      "value": {
+        "fontFamily": "{aha-prodcut}",
+        "fontWeight": "{Regular}",
+        "lineHeight": "{static-medium}",
+        "fontSize": "{scale-dimension-font-size-100}"
+      },
+      "type": "typography",
+      "description": "It's a token used for long content information. \nIndicates the medium text available in the body."
+    },
+    "line-height-md-bold": {
+      "value": {
+        "fontFamily": "{aha-prodcut}",
+        "fontWeight": "{Bold}",
+        "lineHeight": "{static-medium}",
+        "fontSize": "{scale-dimension-font-size-100}"
+      },
+      "type": "typography",
+      "description": "It's a token used for long content information. \nIndicates the medium text available in the body."
+    },
+    "line-height-sm": {
+      "value": {
+        "fontFamily": "{aha-prodcut}",
+        "fontWeight": "{Regular}",
+        "lineHeight": "{static-small}",
+        "fontSize": "{scale-dimension-font-size-100}"
+      },
+      "type": "typography",
+      "description": "It's a token used for long content information. \nIndicates the medium text available in the body."
+    },
+    "line-height-sm-bold": {
+      "value": {
+        "fontFamily": "{aha-prodcut}",
+        "fontWeight": "{Bold}",
+        "lineHeight": "{static-small}",
+        "fontSize": "{scale-dimension-font-size-100}"
+      },
+      "type": "typography",
+      "description": "It's a token used for long content information. \nIndicates the medium text available in the body."
+    }
+  },
+  "body-sm": {
+    "line-height-md": {
+      "value": {
+        "fontFamily": "{aha-prodcut}",
+        "fontWeight": "{Regular}",
+        "lineHeight": "{static-medium}",
+        "fontSize": "{scale-dimension-font-size-50}"
+      },
+      "type": "typography",
+      "description": "It's a token used for long content information. \nIndicates the medium text available in the body."
+    },
+    "line-height-md-bold": {
+      "value": {
+        "fontFamily": "{aha-prodcut}",
+        "fontWeight": "{Bold}",
+        "lineHeight": "{static-medium}",
+        "fontSize": "{scale-dimension-font-size-50}"
+      },
+      "type": "typography",
+      "description": "It's a token used for long content information. \nIndicates the medium text available in the body."
+    },
+    "line-height-sm": {
+      "value": {
+        "fontFamily": "{aha-prodcut}",
+        "fontWeight": "{Regular}",
+        "lineHeight": "{static-small}",
+        "fontSize": "{scale-dimension-font-size-50}"
+      },
+      "type": "typography",
+      "description": "It's a token used for long content information. \nIndicates the medium text available in the body."
+    },
+    "line-height-sm-bold": {
+      "value": {
+        "fontFamily": "{aha-prodcut}",
+        "fontWeight": "{Bold}",
+        "lineHeight": "{static-small}",
+        "fontSize": "{scale-dimension-font-size-50}"
+      },
+      "type": "typography",
+      "description": "It's a token used for long content information. \nIndicates the medium text available in the body."
+    }
+  },
+  "aha-prodcut": {
+    "value": "{pretendard}",
+    "type": "fontFamilies"
+  },
+  "radius": {
+    "ui-small": {
+      "value": "{scale-radius-2}",
+      "type": "borderRadius"
+    },
+    "media-base": {
+      "value": "{scale-radius-3}",
+      "type": "borderRadius",
+      "description": "Default border round value applied to media areas such as thumbnails, pictures, and videos."
+    },
+    "ui-full": {
+      "value": "{scale-radius-full}",
+      "type": "borderRadius"
+    }
+  },
+  "paragraph-lg": {
+    "value": "{static-large}",
+    "type": "lineHeights"
+  },
+  "paragraph-md": {
+    "value": "{static-medium}",
+    "type": "lineHeights"
+  },
+  "body-xsm": {
+    "line-height-md": {
+      "value": {
+        "fontFamily": "{aha-prodcut}",
+        "fontWeight": "{Regular}",
+        "lineHeight": "{static-medium}",
+        "fontSize": "{scale-dimension-font-size-25}"
+      },
+      "type": "typography",
+      "description": "It's a token used for long content information. \nIndicates the medium text available in the body."
+    },
+    "line-height-md-bold": {
+      "value": {
+        "fontFamily": "{aha-prodcut}",
+        "fontWeight": "{Bold}",
+        "lineHeight": "{static-medium}",
+        "fontSize": "{scale-dimension-font-size-25}"
+      },
+      "type": "typography",
+      "description": "It's a token used for long content information. \nIndicates the medium text available in the body."
+    },
+    "line-height-sm": {
+      "value": {
+        "fontFamily": "{aha-prodcut}",
+        "fontWeight": "{Regular}",
+        "lineHeight": "{static-small}",
+        "fontSize": "{scale-dimension-font-size-25}"
+      },
+      "type": "typography",
+      "description": "It's a token used for long content information. \nIndicates the medium text available in the body."
+    },
+    "line-height-sm-bold": {
+      "value": {
+        "fontFamily": "{aha-prodcut}",
+        "fontWeight": "{Bold}",
+        "lineHeight": "{static-small}",
+        "fontSize": "{scale-dimension-font-size-25}"
+      },
+      "type": "typography",
+      "description": "It's a token used for long content information. \nIndicates the medium text available in the body."
+    }
+  }
+}
