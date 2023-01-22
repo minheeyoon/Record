@@ -5,8 +5,8 @@
 
 :root {
   --sf-mono: SF Mono;
-  --static-alpha-white-500: rgba(255,255,255,0.5);
-  --static-alpha-white-200: rgba(255,255,255,0.2);
+  --static-alpha-white-500: rgba(255, 255, 255, 0.5);
+  --static-alpha-white-200: rgba(255, 255, 255, 0.2);
   --static-alpha-balck-200: rgba(0, 0, 0, 0.2);
   --static-alpha-balck-500: rgba(0, 0, 0, 0.5);
   --static-blue: #3d73ff;
@@ -119,15 +119,15 @@
   --scale-light-purple-200: #e5dbff;
   --scale-light-purple-100: #f3f0ff;
   --scale-light-gray-1000: #000000;
-  --scale-light-gray-900: #15171A;
+  --scale-light-gray-900: #15171a;
   --scale-light-gray-800: #212529;
-  --scale-light-gray-700: #343A40;
+  --scale-light-gray-700: #343a40;
   --scale-light-gray-600: #495057;
-  --scale-light-gray-500: #868E96;
-  --scale-light-gray-400: #ADB5BD;
-  --scale-light-gray-300: #DEE2E6;
-  --scale-light-gray-200: #F1F3F5;
-  --scale-light-gray-100: #F8F9FA;
+  --scale-light-gray-500: #868e96;
+  --scale-light-gray-400: #adb5bd;
+  --scale-light-gray-300: #dee2e6;
+  --scale-light-gray-200: #f1f3f5;
+  --scale-light-gray-100: #f8f9fa;
   --scale-light-gray-00: #ffffff;
   --scale-dark-red-alpha-200: rgba(250, 82, 82, 0.2);
   --scale-dark-red-alpha-100: rgba(250, 82, 82, 0.1);
@@ -174,7 +174,7 @@
   --scale-dark-blue-300: #2c54cd;
   --scale-dark-blue-200: #1e409b;
   --scale-dark-blue-100: #002c67;
-  --scale-dark-purple-900: #F3F0FF;
+  --scale-dark-purple-900: #f3f0ff;
   --scale-dark-purple-800: #e5dbff;
   --scale-dark-purple-700: #d0bfff;
   --scale-dark-purple-600: #9775fa;
@@ -182,17 +182,17 @@
   --scale-dark-purple-400: #6741d9;
   --scale-dark-purple-300: #5f3dc4;
   --scale-dark-purple-200: #482e94;
-  --scale-dark-purple-100: #2D1D5C;
+  --scale-dark-purple-100: #2d1d5c;
   --scale-dark-gray-1000: #ffffff;
-  --scale-dark-gray-900: #F8F9FA;
-  --scale-dark-gray-800: #F1F3F5;
-  --scale-dark-gray-700: #DEE2E6;
-  --scale-dark-gray-600: #ADB5BD;
-  --scale-dark-gray-500: #868E96;
+  --scale-dark-gray-900: #f8f9fa;
+  --scale-dark-gray-800: #f1f3f5;
+  --scale-dark-gray-700: #dee2e6;
+  --scale-dark-gray-600: #adb5bd;
+  --scale-dark-gray-500: #868e96;
   --scale-dark-gray-400: #495057;
-  --scale-dark-gray-300: #343A40;
+  --scale-dark-gray-300: #343a40;
   --scale-dark-gray-200: #212529;
-  --scale-dark-gray-100: #15171A;
+  --scale-dark-gray-100: #15171a;
   --scale-dark-gray-00: #000000;
   --paragraph-md: var(--static-medium);
   --paragraph-lg: var(--static-large);
