@@ -237,11 +237,11 @@
       "type": "color"
     },
     "purple-alpha-100": {
-      "value": "rgba(121, 80, 242, 0.1)",
+      "value": "rgba(149, 114, 255, 0.2)",
       "type": "color"
     },
     "purple-alpha-200": {
-      "value": "rgba(121, 80, 242, 0.2)",
+      "value": "rgba(149, 114, 255, 0.3)",
       "type": "color"
     },
     "green-alpha-100": {
@@ -258,6 +258,14 @@
     },
     "red-alpha-200": {
       "value": "rgba(250, 82, 82, 0.2)",
+      "type": "color"
+    },
+    "blue-alpha-100": {
+      "value": "rgba(0, 102, 255, 0.2)",
+      "type": "color"
+    },
+    "blue-alpha-200": {
+      "value": "rgba(0, 102, 255, 0.3)",
       "type": "color"
     }
   },

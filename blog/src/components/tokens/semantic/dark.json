@@ -6,21 +6,21 @@
       "description": "Primary Color The color used for content (icon, text, etc.) located above the surface."
     },
     "primary": {
-      "value": "{color.purple-500}",
+      "value": "{color.blue-500}",
       "type": "color",
       "description": "A color that is used for major actions in the service or that expresses the brand's personality"
     },
     "primary-event": {
-      "value": "{color.purple-400}",
+      "value": "{color.blue-600}",
       "type": "color",
       "description": "Tokens that represent changes in the default color state when the user presses or controls the screen with a mouse or finger. \nIt replaces hovered in a desktop environment. \nIn a mobile environment, it replaces the pressed."
     },
     "primary-low": {
-      "value": "{color.purple-alpha-100}",
+      "value": "{color.blue-alpha-100}",
       "type": "color"
     },
     "primary-low-event": {
-      "value": "{color.purple-alpha-200}",
+      "value": "{color.blue-alpha-200}",
       "type": "color"
     },
     "negative": {
