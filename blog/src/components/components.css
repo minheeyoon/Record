@@ -11,50 +11,13 @@
 .footer {
   margin-top: var(--scale-dimension-size-400);
   margin-bottom: var(--scale-dimension-size-200);
-  background-color: var(--color-purple-700);
-  color: var(--color-gray-900);
 }
 
-.toggle-btn {
-  height: 0;
-  width: 0;
-  visibility: hidden;
-}
-
-.toggle-label {
+.themeToggle {
+  padding: var(--scale-dimension-size-100);
+  background-color: var(--color-gray-00);
+  border-radius: var(--scale-radius-full);
   cursor: pointer;
-  width: 44px;
-  height: 27px;
-  background: #fefefe;
-  display: block;
-  border-radius: 100px;
-  position: relative;
-  bottom: 15px;
-}
-
-svg {
-  color: black;
-  position: relative;
-  top: 5px;
-  left: 2px;
-  font-size: 18px;
-}
-
-.toggle-label:after {
-  content: "";
-  position: absolute;
-  top: 1.6px;
-  left: 2px;
-  width: 24px;
-  height: 24px;
-  background: #080827;
-  border-radius: 90px;
-  transition: 0.3s;
-}
-
-.toggle:checked + .toggle-label:after {
-  left: calc(100% - 2px);
-  transform: translateX(-100%);
 }
 
 @media (max-width: 520px) {

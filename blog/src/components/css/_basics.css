@@ -5,7 +5,8 @@ body {
   font-family: var(--pretendard);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: var(--scale-gray-800);
+  background-color: var(--semantic-surface-low);
+  color: var(--semantic-on-surface);
 }
 
 code {

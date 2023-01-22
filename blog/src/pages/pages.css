@@ -3,8 +3,7 @@
 @import url(../components/css/_light.css);
 
 .post-list {
-  background-color: var(--color-gray-800);
-  border-top: 1px solid var(--border-divider);
+  border-top: 1px solid var(--semantic-border-divider);
 }
 
 .post-card {
@@ -12,5 +11,5 @@
   justify-content: space-between;
   align-items: center;
   height: var(--scale-dimension-size-1000);
-  border-bottom: 1px solid var(--border-divider);
+  border-bottom: 1px solid var(--semantic-border-divider);
 }

@@ -74,4 +74,22 @@
   --static-alpha-balck-200: rgba(0, 0, 0, 0.2);
   --static-alpha-white-200: rgba(255, 255, 255, 0.2);
   --static-alpha-white-500: rgba(255, 255, 255, 0.5);
+  --semantic-on-primary: #ffffff;
+  --semantic-primary: #7950f2;
+  --semantic-primary-event: #9775fa;
+  --semantic-primary-low: rgba(121, 80, 242, 0.1);
+  --semantic-primary-low-event: rgba(121, 80, 242, 0.2);
+  --semantic-negative: #fa5252;
+  --semantic-negative-event: #ff8787;
+  --semantic-negative-low: rgba(250, 82, 82, 0.1);
+  --semantic-positive: #40c057;
+  --semantic-positive-low: rgba(64, 192, 87, 0.1);
+  --semantic-disabled: #adb5bd;
+  --semantic-disabled-low: #f1f3f5;
+  --semantic-surface-low: #f8f9fa;
+  --semantic-surface: #ffffff;
+  --semantic-surface-contents: #f8f9fa;
+  --semantic-on-surface: #15171a;
+  --semantic-border-thumbnail: rgba(0, 0, 0, 0.03);
+  --semantic-border-divider: #f1f3f5;
 }
