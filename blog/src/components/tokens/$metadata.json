@@ -1,6 +1,7 @@
 {
   "tokenSetOrder": [
     "scale/light",
+    "scale/figure",
     "scale/dark",
     "semantic/light",
     "semantic/dark"
