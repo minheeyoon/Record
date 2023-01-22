@@ -1,6 +1,4 @@
 @import url(../components/css/_basics.css);
-@import url(../components/css/_variables.css);
-@import url(../components/css/_light.css);
 
 .post-list {
   border-top: 1px solid var(--semantic-border-divider);
@@ -12,4 +10,47 @@
   align-items: center;
   height: var(--scale-dimension-size-1000);
   border-bottom: 1px solid var(--semantic-border-divider);
+}
+
+.post-information {
+  display: flex;
+}
+
+.post-data {
+  width: 10rem;
+}
+
+.post-category {
+  width: 10rem;
+}
+
+.post-title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Post, Project UI Element */
+
+@media (max-width: 520px) {
+  .post-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    height: var(--scale-dimension-size-1500);
+  }
+
+  .post-information {
+    font-size: var(--scale-dimension-font-size-75);
+    margin-bottom: var(--scale-dimension-size-50);
+  }
+
+  .post-data {
+    width: 4.5rem;
+  }
+
+  .post-category {
+    width: 4rem;
+  }
 }

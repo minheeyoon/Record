@@ -5,6 +5,13 @@ import { useTheme } from "./hooks/useTheme";
 
 const Footer = () => {
   const { theme, setTheme } = useTheme();
+
+  const body = window.document.body;
+
+  setTimeout(() => {
+    body.classList.add("theme-transition");
+  }, 1000);
+
   return (
     <div className="footer">
       <p>&copy;{new Date().getFullYear()} NoName</p>

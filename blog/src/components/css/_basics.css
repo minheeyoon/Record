@@ -1,4 +1,6 @@
+@import url(./_variables.css);
 @import url(./_dark.css);
+@import url(./_light.css);
 
 body {
   margin: 0;
@@ -8,6 +10,38 @@ body {
   background-color: var(--semantic-surface-low);
   color: var(--semantic-on-surface);
 }
+
+a {
+  cursor: pointer;
+}
+
+/* 타이포 부품 */
+
+.weight-regular {
+  font-weight: var(--regular);
+}
+
+.weight-bold {
+  font-weight: var(--bold);
+}
+
+.word {
+  word-break: keep-all;
+}
+
+.lh-lg {
+  line-height: var(--static-large);
+}
+
+.lh-md {
+  line-height: var(--static-medium);
+}
+
+.lh-sm {
+  line-height: var(--static-small);
+}
+
+/* 기본 타이포 셋팅 */
 
 code {
   font-family: var(--sf-mono);
@@ -53,24 +87,10 @@ p {
   margin: var(--scale-dimension-size-0);
 }
 
-.links {
-  text-decoration: none;
-  color: var(--scale-gray-900);
-}
-
-.links:hover {
-  color: var(--scale-gray-600);
-}
-
 .body-lg {
   font-size: var(--scale-dimension-font-size-200);
   line-height: var(--static-large);
-}
-
-.body-lg-bold {
-  font-size: var(--scale-dimension-font-size-200);
-  line-height: var(--static-large);
-  font-weight: var(--bold);
+  word-break: keep-all;
 }
 
 .body-md {
@@ -79,30 +99,36 @@ p {
   word-break: keep-all;
 }
 
-.body-md-bold {
-  font-size: var(--scale-dimension-font-size-100);
-  line-height: var(--static-medium);
-  font-weight: var(--bold);
-}
-
 .body-sm {
   font-size: var(--scale-dimension-font-size-50);
   line-height: var(--static-medium);
-}
-
-.body-sm-bold {
-  font-size: var(--scale-dimension-font-size-50);
-  line-height: var(--static-medium);
-  font-weight: var(--bold);
+  word-break: keep-all;
 }
 
 .body-xsm {
   font-size: var(--scale-dimension-font-size-25);
   line-height: var(--static-medium);
+  word-break: keep-all;
 }
 
-.body-xsm-bold {
-  font-size: var(--scale-dimension-font-size-20);
-  line-height: var(--static-medium);
-  font-weight: var(--bold);
+/* 기본 UI 스타일 셋팅  */
+
+.links {
+  text-decoration: none;
+  color: var(--color-gray-800);
+  cursor: pointer;
+}
+
+.links:hover {
+  color: var(--color-gray-700);
+}
+
+.links-secondary {
+  text-decoration: none;
+  color: var(--color-gray-600);
+  cursor: pointer;
+}
+
+.links-secondary:hover {
+  color: var(--color-gray-700);
 }

@@ -16,6 +16,7 @@ export default function ThemeContextProvider({ children }) {
 
     root.classList.remove(removeOldTheme);
     root.classList.add(theme);
+
     localStorage.setItem("theme", theme);
   }, [theme]);
 

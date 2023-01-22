@@ -16,10 +16,14 @@ const PostList = () => {
         postlist.map((post, i) => {
           return (
             <Link to={`/post/${post.id}`} key={i} className="post-card links">
-              <small>{post.date}</small>
-              <small>{post.category}</small>
-              <h6>{post.title}</h6>
-              <CaretRight size={24} weight="bold" />
+              <div className="post-information body-md">
+                <div className="post-data">{post.date}</div>
+                <div className="post-category">{post.category}</div>
+              </div>
+              <div className="post-title">
+                <h6>{post.title}</h6>
+                <CaretRight size={24} weight="regular" />
+              </div>
             </Link>
           );
         })}
