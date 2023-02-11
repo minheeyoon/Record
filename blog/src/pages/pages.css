@@ -30,6 +30,25 @@
   width: 100%;
 }
 
+/* Post, Project Contnets */
+
+.post-contents-title {
+  margin-bottom: var(--scale-dimension-size-300);
+}
+
+.post-contents-title h4 {
+  margin-bottom: var(--scale-dimension-size-25);
+}
+
+.post-contents-title p {
+  color: var(--color-gray-500);
+}
+
+.post-contents img,
+iframe {
+  margin-bottom: var(--scale-dimension-size-300);
+}
+
 /* Post, Project UI Element */
 
 @media (max-width: 520px) {

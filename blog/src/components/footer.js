@@ -17,14 +17,14 @@ const Footer = () => {
       <p>&copy;{new Date().getFullYear()} NoName</p>
       {theme === "theme-light" ? (
         <Moon
-          size={24}
+          size={18}
           weight="bold"
           className="themeToggle"
           onClick={() => setTheme("theme-dark")}
         ></Moon>
       ) : (
         <Sun
-          size={24}
+          size={18}
           weight="bold"
           className="themeToggle"
           onClick={() => setTheme("theme-light")}

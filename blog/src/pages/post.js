@@ -38,12 +38,14 @@ const Post = (props) => {
   return (
     <Layout>
       <Navbar />
-      <div className="post">
-        <h4>{fetchedPost.title}</h4>
-        <p>
-          {fetchedPost.date}·{fetchedPost.ahthor}
-        </p>
-        <hr />
+      <div className="post-contents">
+        <div className="post-contents-title">
+          <h4>{fetchedPost.title}</h4>
+          <p>
+            {fetchedPost.category} · {fetchedPost.date}
+          </p>
+        </div>
+
         <ReactMarkdown
           children={fetchedPost.content}
           rehypePlugins={[rehypeRaw]}
