@@ -78,7 +78,7 @@
       "type": "color"
     },
     "border-divider": {
-      "value": "{color.gray-200}",
+      "value": "{color.ash-300}",
       "type": "color"
     }
   }

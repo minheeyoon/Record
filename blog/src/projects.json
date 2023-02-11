@@ -1,5 +1,13 @@
 [
   {
+    "id": 1676127600,
+    "title": "프로젝트 둘",
+    "ahthor": "Have No Author",
+    "date": "2023.02.12",
+    "category": "Project",
+    "content": "\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/53hhLXqks2U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\nBy incorporating the serenity of the dawn hours into its design, the Dawn Theme enhances your writing experience with subtle, yet impactful, modifications.\n\n### features\n\n- Enhancing the Elegance with Subtly Spacious Design in UI\n- Soft Dark and Light Modes with Crisp Space\n- Fine-tuned Markdown Writing and Previewing Experience\n- `KR` 정갈한 UI\n- `KR` 저대비로 눈이 편안한 다크모드, 화이트모드\n- `KR` 섬세하게 조정된 마크다운 편집& Preview 화면\n\nAnd we plan to continuously update it.\n\n<img src=\"https://i.imgur.com/oD8VVtW.png\" title=\"source: imgur.com\" />\n\n---\n\n### Color\n\n<img src=\"https://i.imgur.com/jxHbEa1.png\" title=\"source: imgur.com\" />\n\nI personally have a preference for high-contrast modes, but for the initial version, pure white (#FFFFFF) and black (#000000) were intentionally excluded in the creation of design tokens.\n\n_In the initial version, we aimed to primarily capture the serenity of Dawn. If the opportunity arises, I would like to try making a high-contrast mode that captures the immersive feeling of dawn._\n\nEven with low contrast, the theme was created with consideration for readability and accessibility. (It's not perfect though).\"\n\n## Blockquotes & Callouts\n\n> 외부의 정보를 해석해낼 내 안의 사유체계가 없다면, 아무리 좋은 정보가 들어와도 기존 정보와 새로운 정보를 연결시킬 수 없다. 미지의 세계를 상상할 기반이 없기 때문이다.\n> _언어를 디자인하다 -200p_\n"
+  },
+  {
     "id": 1674140400,
     "title": "프로젝트 하나",
     "ahthor": "Have No Author",

@@ -13,7 +13,7 @@
   height: 6rem;
   display: flex;
   align-items: center;
-  background-color: var(--semantic-surface-low);
+  background-color: var(--semantic-surface);
   top: 0;
 }
 
