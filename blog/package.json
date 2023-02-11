@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://minheeyoon.github.io/Record",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -26,7 +26,9 @@
     "eject": "react-scripts eject",
     "server": "node public/main.js",
     "styleBuild": "style-dictionary build --config build.js",
-    "styleFigureBuild": "style-dictionary build"
+    "styleFigureBuild": "style-dictionary build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
