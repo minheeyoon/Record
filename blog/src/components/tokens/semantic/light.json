@@ -57,15 +57,15 @@
       "description": "Represents a step in a hierarchy below the default deactivation status color."
     },
     "surface-low": {
-      "value": "{color.gray-100}",
+      "value": "{color.ash-100}",
       "type": "color"
     },
     "surface": {
-      "value": "{color.gray-00}",
+      "value": "{color.ash-200}",
       "type": "color"
     },
     "surface-contents": {
-      "value": "{color.gray-100}",
+      "value": "{color.ash-500}",
       "type": "color"
     },
     "on-surface": {

@@ -188,6 +188,46 @@
       "value": "#fff4e6",
       "type": "color"
     },
+    "ash-100": {
+      "value": "#131311",
+      "type": "color"
+    },
+    "ash-200": {
+      "value": "#262521",
+      "type": "color"
+    },
+    "ash-300": {
+      "value": "#393832",
+      "type": "color"
+    },
+    "ash-400": {
+      "value": "#4c4a43",
+      "type": "color"
+    },
+    "ash-500": {
+      "value": "#5f5d54",
+      "type": "color"
+    },
+    "ash-600": {
+      "value": "#727064",
+      "type": "color"
+    },
+    "ash-700": {
+      "value": "#858275",
+      "type": "color"
+    },
+    "ash-800": {
+      "value": "#989586",
+      "type": "color"
+    },
+    "ash-900": {
+      "value": "#aba796",
+      "type": "color"
+    },
+    "ash-1000": {
+      "value": "#bebaa7",
+      "type": "color"
+    },
     "red-100": {
       "value": "#700707",
       "type": "color"
