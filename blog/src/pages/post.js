@@ -39,7 +39,7 @@ const Post = (props) => {
     <Layout>
       <Navbar />
       <div className="post">
-        <h2>{fetchedPost.title}</h2>
+        <h4>{fetchedPost.title}</h4>
         <p>
           {fetchedPost.date}·{fetchedPost.ahthor}
         </p>
