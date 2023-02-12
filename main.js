@@ -111,6 +111,7 @@ const getPages = () => {
           ahthor: metadata.ahthor ? metadata.ahthor : "Have No Author",
           date: metadata.date ? metadata.date : "Have No Date",
           category: metadata.category ? metadata.category : "Have No Category",
+          note: metadata.note ? metadata.note : "Have No Note",
           content: content ? content : "Have No Content",
         };
         pagelist.push(page);

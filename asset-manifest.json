@@ -1,13 +1,13 @@
 {
-  "main.css": "/Record/static/css/main.50a804a7.chunk.css",
-  "main.js": "/Record/static/js/main.7a0b80f0.chunk.js",
-  "main.js.map": "/Record/static/js/main.7a0b80f0.chunk.js.map",
-  "runtime~main.js": "/Record/static/js/runtime~main.dbc48db5.js",
-  "runtime~main.js.map": "/Record/static/js/runtime~main.dbc48db5.js.map",
-  "static/js/2.1919db6d.chunk.js": "/Record/static/js/2.1919db6d.chunk.js",
-  "static/js/2.1919db6d.chunk.js.map": "/Record/static/js/2.1919db6d.chunk.js.map",
-  "index.html": "/Record/index.html",
-  "precache-manifest.bbf7abf22b890a12d466ae759794e787.js": "/Record/precache-manifest.bbf7abf22b890a12d466ae759794e787.js",
-  "service-worker.js": "/Record/service-worker.js",
-  "static/css/main.50a804a7.chunk.css.map": "/Record/static/css/main.50a804a7.chunk.css.map"
+  "files": {
+    "main.css": "/Record/static/css/main.e48f4dc7.css",
+    "main.js": "/Record/static/js/main.84b895a7.js",
+    "index.html": "/Record/index.html",
+    "main.e48f4dc7.css.map": "/Record/static/css/main.e48f4dc7.css.map",
+    "main.84b895a7.js.map": "/Record/static/js/main.84b895a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e48f4dc7.css",
+    "static/js/main.84b895a7.js"
+  ]
 }
