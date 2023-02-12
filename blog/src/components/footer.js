@@ -18,14 +18,14 @@ const Footer = () => {
       {theme === "theme-light" ? (
         <Moon
           size={18}
-          weight="bold"
+          weight="fill"
           className="themeToggle"
           onClick={() => setTheme("theme-dark")}
         ></Moon>
       ) : (
         <Sun
           size={18}
-          weight="bold"
+          weight="fill"
           className="themeToggle"
           onClick={() => setTheme("theme-light")}
         ></Sun>

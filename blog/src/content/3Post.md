@@ -2,7 +2,7 @@
 title: 둥가둥가둥가둥가
 author: minhee
 date: 2023.01.21
-category: RECORD
+category: Record
 ---
 
 마크다운 테스트 중입니다.

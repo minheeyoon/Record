@@ -2,7 +2,7 @@
 title: 모든게 쉬우면 얼마나 좋을까!
 author: minhee
 date: 2023.01.19
-category: DESIGN
+category: Design
 ---
 
 <img src="https://i.imgur.com/oD8VVtW.png" title="source: imgur.com" />
@@ -20,18 +20,29 @@ code
 `code`
 
 내가 힘들 때 울 것 같을 때 (Mm-hm)
+
 기운도 이젠 나지 않을 때 (Mm-hm)
+
 It’s you, 날 걱정하네, it’s you, 날 웃게하네
+
 말 안 해도 돼, boy, what do you say?
 
 (They keep on asking me, “Who is he?”)
+
 멀리든 언제든지 달려와
+
 (They keep on asking me, “Who is he?”)
+
 바쁜 척도 없이 넌 나타나
+
 (They keep on asking me, “Who is he?”)
+
 이게 말이 되니 난 물어봐
+
 (They keep on asking me, “Who is he?”)
-너는 말야, he’s the one that’s living in my system, baby
+
+너는 말야, he’s the one that’s living in my system,
+baby
 
 Oh my, oh my God, 예상했어 나
 I was really hoping that he will come through

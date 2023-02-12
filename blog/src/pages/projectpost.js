@@ -1,9 +1,12 @@
 import React from "react";
 import { useParams, Navigate } from "react-router-dom";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { dracula } from "react-syntax-highlighter/dist/esm/styles/prism";
 import projectlist from "../projects.json";
 import Layout from "../components/layout";
-import Navbar from "../components/navibar";
+import NavbarSub from "../components/navibarSub";
 import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 import "./pages.css";
 
@@ -42,18 +45,46 @@ const ProjectPost = (props) => {
   return (
     <div className="project">
       <Layout>
-        <Navbar />
+        <NavbarSub />
         <div className="post-contents">
           <div className="post-contents-title">
             <h4>{fetchedProject.title}</h4>
-            <p>
+            <div className="post-contents-info">
               {fetchedProject.category} · {fetchedProject.date}
-            </p>
+            </div>
           </div>
 
           <ReactMarkdown
             children={fetchedProject.content}
             rehypePlugins={[rehypeRaw]}
+            remarkPlugins={[remarkGfm]}
+            components={{
+              code({ node, inline, className, children, ...props }) {
+                const match = /language-(\w+)/.exec(className || "");
+                return !inline && match ? (
+                  <div className="code-block">
+                    <div className="code-block-title">
+                      <p className="ui-font">Example</p>
+                    </div>
+                    <SyntaxHighlighter
+                      children={String(children).replace(/\n$/, "")}
+                      style={dracula}
+                      customStyle={{
+                        padding: "24px",
+                      }}
+                      wrapLongLines={true}
+                      language={match[1]}
+                      PreTag="div"
+                      {...props}
+                    />
+                  </div>
+                ) : (
+                  <code className={className} {...props}>
+                    {children}
+                  </code>
+                );
+              },
+            }}
           />
         </div>
       </Layout>

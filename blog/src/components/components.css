@@ -15,10 +15,20 @@
   align-items: center;
   background-color: var(--semantic-surface);
   top: 0;
+  font-size: var(--scale-dimension-font-size-300);
 }
 
 .sub-navi {
   margin-top: var(--scale-dimension-size-200);
+}
+
+.sub-navi-bar {
+  display: flex;
+  align-items: center;
+}
+
+.sub-navi-bar > svg {
+  margin-right: var(--scale-dimension-size-50);
 }
 
 .header {
@@ -29,15 +39,45 @@
 .footer {
   display: flex;
   justify-content: space-between;
+  width: 53.75rem;
+  background-color: var(--semantic-surface);
+  padding-top: var(--scale-dimension-size-400);
+  padding-bottom: var(--scale-dimension-size-200);
   align-items: center;
-
-  margin-top: var(--scale-dimension-size-400);
-  margin-bottom: var(--scale-dimension-size-200);
+  position: fixed;
+  bottom: 0;
 }
+
+/* markdown 셋팅 */
+
+.ui-font {
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  margin: var(--scale-dimension-size-0);
+}
+
+.code-block {
+  background-color: rgb(40, 42, 54);
+  overflow: hidden;
+  border-radius: var(--scale-radius-3);
+}
+
+.code-block-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--scale-dimension-size-150);
+  background-color: var(--static-alpha-balck-200);
+  color: var(--static-alpha-white-500);
+}
+
+/* 테마변환 버튼 */
 
 .themeToggle {
   padding: var(--scale-dimension-size-100);
-  background-color: var(--color-gray-00);
+  background-color: var(--semantic-surface-contents);
   border-radius: var(--scale-radius-full);
   cursor: pointer;
 }
@@ -58,5 +98,9 @@
   }
   .navbar {
     width: 100%;
+  }
+
+  .footer {
+    width: 80vw;
   }
 }

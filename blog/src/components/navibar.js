@@ -5,11 +5,9 @@ import "./components.css";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <h6>
-        <Link className="links" to="/">
-          PIECE
-        </Link>
-      </h6>
+      <Link className="links weight-bold" to="/">
+        PIECE
+      </Link>
     </div>
   );
 };
