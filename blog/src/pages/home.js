@@ -17,7 +17,7 @@ const Home = () => {
             넣기보다는, 이례적인 일부 기능이나 개선 사항을 빼더라도 일련의 설계
             사상을 고수하는 편이 더 낫다.
           </h6>
-          <div className="sub-navi">
+          <div className="sub-page-navi">
             <small>
               <Link className="links-secondary" to="/project">
                 Project &nbsp;

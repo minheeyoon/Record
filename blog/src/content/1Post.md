@@ -1,119 +1,79 @@
 ---
-title: 모든게 쉬우면 얼마나 좋을까!
+title: 이곳을 짓기까지
 author: minhee
-date: 2023.01.19
-category: Design
+date: 2023.02.14
+category: Record
 ---
 
 <img src="https://i.imgur.com/oD8VVtW.png" title="source: imgur.com" />
 
-_룰루랄라_
+마크다운 TEST
 
-**결국은 이렇게됐다네**
+# Heading1
 
-# TEST
+## Heading2
 
-```
-code
-```
+### Heading3
+
+#### Heading4
+
+##### Heading5
+
+###### Heading6
+
+봄바람을 가장 얼음에 이상의 평화스러운 황금시대의 않는 듣는다. 그들의 그들을 천자만홍이 천고에 스며들어 살 이상 뛰노는 사막이다. 동력은 있으며, 그들에게 모래뿐일 그들을 수 피고 과실이 천자만홍이 철환하였는가? 청춘의 청춘의 무한한 무엇을 바로 지혜는 만물은 이상 있다. 위하여 얼음과 있을 꽃이 길지 피고, 속잎나고, 얼음 할지니, 칼이다. 긴지라 밝은 이상의 그들을 청춘은 눈이 능히 봄바람이다.
+
+Usual | _Italic_ | **bold** | ~~취소선~~
+
+- list
+- list
+- list
+  - list
+  - list
+  - list
+    - list
+    - list
+    - list
+
+1. number
+2. number
+3. number
+
+**Table**
+| 개념 | 서술 |
+| ---- | ------------------------------------------------------------------------------------------ |
+| 신념 | 기존 개념에 나만의 신념(가치관,철학)을 담아 재정의 하여 나만의 개념으로 만들 것 |
+| 어원 | 단어의 의미를 파고드는 어원사전 / 단어가 태어난 배경을 파고는 것 |
+| 관점 | 기존 개념을 나의 관점 혹은 다른 사람의 관점으로 바꾸어 재정의 하는 것 |
+| 은유 | 하나를 정한 다음, 그 단어가 품고 있는 욕망을 동사로 표현해보는 것 |
+| 연상 | 개념에 대해 연상되는 단어나 이미지가 어떻게 바뀌는지 인생의 시기별로 작성해보는 것 |
+| 감성 | 단어를 놓고 이렇게도 해보고 저렇게도 해보며 내 몸이 느낀 감정을 그대로 풀어보는 것 |
+| 가치 | 내가 인생에서 가장 소중하게 생각하는 핵심가치를 정의하기 |
+
+````javascript
+	const preloader = document.querySelector(".preloader");
+	window.addEventListener("load", function () {
+	preloader.classList.add("hide-preloader");
+
+	});
+	```
+````
 
 `code`
 
-내가 힘들 때 울 것 같을 때 (Mm-hm)
+- [x] HELLOW
+- [ ] HELLOW
 
-기운도 이젠 나지 않을 때 (Mm-hm)
+> 외부의 정보를 해석해낼 내 안의 사유체계가 없다면, 아무리 좋은 정보가 들어와도 기존 정보와 새로운 정보를 연결시킬 수 없다. 미지의 세계를 상상할 기반이 없기 때문이다.
+>
+> > _언어를 디자인하다 -200p_
 
-It’s you, 날 걱정하네, it’s you, 날 웃게하네
+Rubric Product Design Level - [엑셀](https://docs.google.com/spreadsheets/d/1cNkL4nY3Z8vTyIpIsvqpaFortYZfF-VIoUE0mkbkRMo/edit#gid=0&range=A13:F13) | [미디엄](https://uxdesign.cc/a-guide-to-becoming-a-senior-product-designer-7b7296f08910)
 
-말 안 해도 돼, boy, what do you say?
+---
 
-(They keep on asking me, “Who is he?”)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dZt7nRBgy9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-멀리든 언제든지 달려와
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D1Pq38Yhm5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-(They keep on asking me, “Who is he?”)
-
-바쁜 척도 없이 넌 나타나
-
-(They keep on asking me, “Who is he?”)
-
-이게 말이 되니 난 물어봐
-
-(They keep on asking me, “Who is he?”)
-
-너는 말야, he’s the one that’s living in my system,
-baby
-
-Oh my, oh my God, 예상했어 나
-I was really hoping that he will come through
-Oh my, oh my God, 단 너뿐이야
-Asking all the time about what I should do
-
-No, I can never let him go (Ooh)
-너만 생각나, twenty-four (Ooh)
-난 행운아야 정말로 (Ooh)
-I know, I know (Ooh)
-널 알기 전까지는 나 (Ooh)
-의미 없었어 전부 다 (Ooh)
-내 맘이 끝이 없는 걸 (Ooh)
-I know, I know, I’m going crazy, right?
-어디서든, 몇 번이든
-There ain’t nothing else that I would hold on to
-I hear his voice through all the noise
-잠시라도 내 손 놓지 마, no, no
-걱정 없잖아
-‘Cause I got someone
-혼자라도 괜찮아
-‘Cause I love someone
-
-(They keep on asking me, “Who is he?”)
-멀리든 언제든지 달려와
-(They keep on asking me, “Who is he?”)
-바쁜 척도 없이 넌 나타나
-(They keep on asking me, “Who is he?”)
-이게 말이 되니 난 물어봐
-(They keep on asking me, “Who is he?”)
-너는 말야, he’s the one that’s living in my system, baby
-
-Oh my, oh my God, 예상했어 나
-I was really hoping that he will come through
-Oh my, oh my God, 단 너뿐이야
-Asking all the time about what I should do
-[Post-Chorus: Haerin, Hyein, Minji]
-No, I can never let him go (Ooh)
-너만 생각나, twenty-four (Ooh)
-난 행운아야 정말로 (Ooh)
-I know, I know (Ooh)
-널 알기 전까지는 나 (Ooh)
-의미 없었어 전부 다 (Ooh)
-내 맘이 끝이 없는 걸 (Ooh)
-I know, I know (He’s the one that’s living in my system, baby, baby)
-
-Baby
-Babe, baby
-I’m going crazy, right? (Baby)
-Baby
-I’m going crazy, right?
-Babe, baby
-너와 나
-
-My heart is glowing, it’s glowing up (Glow, glow)
-너랑만 있으면 무서울 게 없어 (No, no)
-가득 메워진, 다 메워진 (붉어진)
-My heart is glowing, it’d be glowing
-‘Cause he
-
-Oh my, oh my God, 예상했어 나
-I was really hoping that he will come through
-Oh my, oh my God, 단 너뿐이야
-Asking all the time about what I should do (너와 나)
-
-No, I can never let him go (Ooh)
-He’s right there for me, twenty-four (Ooh)
-난 행운아야 정말로 (Ooh)
-I know, I know (너와 나)
-널 알기 전까지는 나 (Ooh)
-의미 없었어 전부 다 (Ooh)
-어떡해
-My heart is glowing, it’s glowing
-My heart is glowing up so I can’t sleep at night
+이정도면 쓸 준비가 되었다?

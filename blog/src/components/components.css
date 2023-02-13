@@ -1,3 +1,22 @@
+/* 테마변환 버튼 */
+
+.themeToggle {
+  padding: var(--scale-dimension-size-100);
+  background-color: var(--semantic-surface-contents);
+  border-radius: var(--scale-radius-full);
+  cursor: pointer;
+}
+
+.theme-transition,
+.theme-transition *,
+.theme-transition *:before,
+.theme-transition *:after {
+  transition-property: top, background-color, border-bottom, border-top;
+  transition-duration: 0.5s;
+}
+
+/* layout */
+
 .layout {
   display: flex;
   flex-direction: column;
@@ -5,30 +24,35 @@
   min-height: 100vh;
   width: 53.75rem;
   margin: 0 auto;
+  margin-bottom: var(--scale-dimension-size-1500);
 }
 
 .navbar {
   position: sticky;
+  top: 0;
   width: 53.75rem;
-  height: 6rem;
+  height: 5.5rem;
   display: flex;
   align-items: center;
   background-color: var(--semantic-surface);
-  top: 0;
   font-size: var(--scale-dimension-font-size-300);
 }
 
-.sub-navi {
-  margin-top: var(--scale-dimension-size-200);
+.navbar.hide {
+  top: -6rem;
 }
 
-.sub-navi-bar {
+.nav-item {
   display: flex;
   align-items: center;
 }
 
-.sub-navi-bar > svg {
+.nav-item > svg {
   margin-right: var(--scale-dimension-size-50);
+}
+
+.sub-page-navi {
+  margin-top: var(--scale-dimension-size-200);
 }
 
 .header {
@@ -41,8 +65,6 @@
   justify-content: space-between;
   width: 53.75rem;
   background-color: var(--semantic-surface);
-  padding-top: var(--scale-dimension-size-400);
-  padding-bottom: var(--scale-dimension-size-200);
   align-items: center;
   position: fixed;
   bottom: 0;
@@ -73,26 +95,7 @@
   color: var(--static-alpha-white-500);
 }
 
-/* 테마변환 버튼 */
-
-.themeToggle {
-  padding: var(--scale-dimension-size-100);
-  background-color: var(--semantic-surface-contents);
-  border-radius: var(--scale-radius-full);
-  cursor: pointer;
-}
-
-.theme-transition,
-.theme-transition *,
-.theme-transition *:before,
-.theme-transition *:after {
-  transition-property: background-color, border-bottom, border-top;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out !important;
-  transition-delay: 0 !important;
-}
-
-@media (max-width: 520px) {
+@media (max-width: 820px) {
   .layout {
     width: 80%;
   }
